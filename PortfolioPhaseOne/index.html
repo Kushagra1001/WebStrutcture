@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phase !</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            background-color: black;
+        }
+
+        #main {
+            width: 100%;
+        }
+
+        #hero {
+            color: #fff;
+            width: 100%;
+            height: 100vh;
+        }
+
+        #nav {
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 40px;
+            /* color: #fff; */
+
+        }
+
+        #nav a {
+            text-decoration: none;
+            font-size: 18px;
+            color: #fff;
+
+        }
+
+        #heading {
+            margin-top: 40px;
+
+        }
+
+        #heading h1 {
+            opacity: .6;
+            margin-left: 30px;
+            line-height: 1;
+            font-size: 9vw;
+            text-transform: uppercase;
+            font-weight: 900;
+        }
+
+        #heading #secondh1 {
+            display: inline-block;
+            margin-left: 160px;
+
+        }
+
+        #secondh1 h5 {
+            text-align: right;
+            /* div to sahi jagah tha but text galat jagah */
+            text-transform: uppercase;
+            font-size: 15px;
+
+
+        }
+
+        #chhotiheadings {
+            margin-top: 100px;
+            padding-right: 50px;
+            text-align: right;
+        }
+
+        #chhotiheadings h5 {
+            text-align: right;
+            text-transform: uppercase;
+            margin-top: 10px;
+
+        }
+
+        #herofooter {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+
+        }
+
+        #herofooter a {
+            text-decoration: none;
+            color: #fff;
+            text-transform: uppercase;
+        }
+
+        #herofooter .circle {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            /* yaha icon ko center me rakhne ka code */
+
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: #888;
+        }
+
+        #second {
+            height: 100vh;
+            width: 100%;
+            padding-top: 200px;
+
+        }
+
+        #elem {
+            width: 100%;
+            padding: 3.5vw 3vw;
+            border-top: 1px solid #888;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        #elem img {
+            height: 25%;
+            width: 25%;
+            display: none;
+            z-index: 20;
+            position: absolute;
+
+        }
+
+        #elem h1 {
+            font-size: 7.5vw;
+            text-transform: uppercase;
+            font-weight: 900;
+            opacity: .7;
+        }
+
+        .elemlast {
+            border-bottom: 1px solid #888;
+        }
+
+        #about {
+            width: 100%;
+            padding: 20vw 5vw;
+            padding-left: 40vw;
+            padding-top: 20vw;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+        }
+
+        #about img {
+            width: 15vw;
+            border-radius: 50%;
+        }
+
+        #textabout {
+            display: flex;
+            flex-direction: column;
+            /* align-items: center; */
+            justify-content: space-between;
+            margin-left: 5vw;
+        }
+
+        #textabout a {
+            width: 100px;
+            font-size: small;
+            margin-top: 5px;
+            text-align: center;
+            border: 1px solid rgb(225, 182, 182);
+            border-radius: 20px;
+            padding: 5px;
+        }
+
+
+        body {
+            background: linear-gradient(15deg, #23171e, #15041e, #2d0404);
+            background-size: 200% 200%;
+            animation: gradient 20s ease infinite;
+        }
+    </style>
+
+</head>
+
+<body class="animated-gradient">
+
+    <div id="main">
+        <div id="hero">
+            <div id="nav">
+                <a href="#">Kushagra Singh</a>
+                <h2>MENU +</h2>
+            </div>
+
+            <div id="heading">
+                <h1>Software</h1>
+
+                <div id="secondh1">
+                    <h1>Engineer</h1>
+                    <h5>Based in Noida</h5>
+                </div>
+
+            </div>
+
+            <div id="chhotiheadings">
+                <h5>Available for Freelancing</h5>
+                <h5>Work From Home</h5>
+                <h5>
+
+                </h5>
+            </div>
+
+            <div id="herofooter">
+                <a href="">Previously Worked At↗️</a>
+                <a href="">Previously Worked At↗️</a>
+                <div id="iconset">
+                    <div class="circle">⬇️</div>
+                    <div class="circle">⬇️</div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="second">
+            <div id="elem">
+                <img src="./img/a1 (1).jpg" alt="mountain">
+                <h1>The Plug</h1>
+                <h5>2026</h5>
+            </div>
+
+            <div id="elem">
+                <img src="./img/a1 (2).jpg" alt="scenary">
+                <h1>IEXPERIENCE</h1>
+                <h5>2026</h5>
+            </div>
+
+            <div id="elem" class="elemlast">
+                <img src="./img/a1 (3).jpg">
+                <h1>HUDU</h1>
+                <h5>2026</h5>
+            </div>
+        </div>
+
+        <div id="about">
+            <img src="./img/a1 (1).jpg">
+            <div id="textabout">
+                <h5>About Me</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate cumque, odit omnis aperiam
+                    perferendis voluptas dignissimos cum, dolorem atque impedit optio quas dicta officiis error.
+                    Adipisci laborum harum consequatur optio!</p>
+                <a>!Let's Talk 🦜</a>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+</body>
+
+</html>
